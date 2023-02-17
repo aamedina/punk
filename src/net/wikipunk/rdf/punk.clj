@@ -71,12 +71,12 @@
    :rdf/type [:punk/World :owl/NamedIndividual]})
 
 (def Fauna
-  "Fauna are non-flowering and non-fungus species."
+  "Fauna are non-plant and non-fungus species."
   {:db/ident :punk/Fauna
    :rdf/type :owl/Class})
 
 (def Flora
-  "Flora are flowering species and fungus."
+  "Flora are all plant species and fungus."
   {:db/ident :punk/Flora
    :rdf/type :owl/Class})
 
