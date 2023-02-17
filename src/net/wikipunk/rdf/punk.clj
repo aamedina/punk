@@ -77,7 +77,7 @@
 
 (def Flora
   "Flora are flowering species and fungus."
-  {:db/ident :punk/Fauna
+  {:db/ident :punk/Flora
    :rdf/type :owl/Class})
 
 (def Biome
