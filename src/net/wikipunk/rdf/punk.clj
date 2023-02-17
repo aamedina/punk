@@ -53,9 +53,9 @@
    :rdfs/subClassOf :foaf/Person})
 
 (def Moongate
-  "A moongate is a portal between points in space whose destination
-  depends on the moon phase. Some moongates can be programmed by their
-  owner and others run code too ancient to be interpreted by Abulafia."
+  "A moongate is a portal between worlds whose destination depends on
+  the moon phase. Some moongates can be programmed by their owner and
+  others run code too ancient to be interpreted by Abulafia."
   {:db/ident :punk/Moongate
    :rdf/type :owl/Class})
 
@@ -69,3 +69,25 @@
   "Nargoth is the name of the world."
   {:db/ident :punk/Nargoth
    :rdf/type [:punk/World :owl/NamedIndividual]})
+
+(def Fauna
+  "Fauna are non-flowering and non-fungus species."
+  {:db/ident :punk/Fauna
+   :rdf/type :owl/Class})
+
+(def Flora
+  "Flora are flowering species and fungus."
+  {:db/ident :punk/Fauna
+   :rdf/type :owl/Class})
+
+(def Biome
+  "Biomes are distinct sets of related :punk/Flora, :punk/Fauna, and
+  :punk/Climate."
+  {:db/ident :punk/Biome
+   :rdf/type :owl/Class})
+
+(def Climate
+  "Climate is a set of weather patterns for an area such as
+  temperature and precipitation."
+  {:db/ident :punk/Climate
+   :rdf/type :owl/Class})
